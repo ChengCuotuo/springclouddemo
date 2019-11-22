@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    config:
+      #      意思是通过 http://config-3345.com:3345 获取 master 分支下 microservicecloud-config-client 中的 test 环境的配置信息
+      name: microserviceclod-config-dept-client
+      profile: test
+      label: master
+      uri: http://config-3345.com:3345

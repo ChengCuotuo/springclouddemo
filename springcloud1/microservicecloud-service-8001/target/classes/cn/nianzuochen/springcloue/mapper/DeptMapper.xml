@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.nianzuochen.springcloue.mapper.DeptMapper">
+
+    <select id="findById" resultType="cn.nianzuochen.microservice.dao.Dept">
+        select deptno, dname, db_source from dept where deptno = #{id,jdbcType=BIGINT}
+    </select>
+    <select id="findAllDept" resultType="cn.nianzuochen.microservice.dao.Dept">
+        select deptno, dname, db_source from dept
+    </select>
+    <insert id="addDept">
+        insert into dept(dname, db_source) values (#{dept.dname,jdbcType=VARCHAR}, DATABASE())
+    </insert>
+
+</mapper>

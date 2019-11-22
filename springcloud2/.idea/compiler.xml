@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="microservicecloud-config-3345" />
+        <module name="microservicecloud-config-client-3346" />
+        <module name="microservicecloudcofigdeptclient8001" />
+        <module name="microservicecloudconfig3345" />
+        <module name="microservicecloudconfigclient3346" />
+        <module name="microservicecloudconfigeurekaclient7001" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

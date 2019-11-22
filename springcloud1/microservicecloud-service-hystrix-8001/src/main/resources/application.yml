@@ -1,0 +1,31 @@
+server:
+  port: 8001
+
+spring:
+  application:
+    name: microservicecloud
+  datasource:
+    url: jdbc:mysql://localhost:3306/cloudDB01?useUnicode=true&characterEncoding=UTF-8&useSSL=true
+    username: root
+    password: root
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
+  instance:
+    instance-id: microservicecloud-dept-8001-hystrix  # 自定义 hystrix 服务名称信息
+    prefer-ip-address: true
+
+info:
+  app-name: microservicecloud
+  company-name: www.nianzuochen.cn
+  build.artifactId: ${project.artifactId}
+  build.version: ${project.version}
+
+#暴露全部的监控信息
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

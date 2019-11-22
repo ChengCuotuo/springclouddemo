@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="microservice-zuul-gatway-9527" />
+        <module name="microservicecloud-api" />
+        <module name="microservicecloud-consumer-dept-80" />
+        <module name="microservicecloud-consumer-dept-feign" />
+        <module name="microservicecloud-eureka-7001" />
+        <module name="microservicecloud-eureka-7002" />
+        <module name="microservicecloud-eureka-7003" />
+        <module name="microservicecloud-hystrix-dashboard" />
+        <module name="microservicecloud-service-8001" />
+        <module name="microservicecloud-service-8002" />
+        <module name="microservicecloud-service-8003" />
+        <module name="microservicecloud-service-hystrix-8001" />
+        <module name="microservicecloudapi" />
+        <module name="microservicecloudconsumerdept80" />
+        <module name="microservicecloudconsumerdeptfeign" />
+        <module name="microservicecloudeureka7001" />
+        <module name="microservicecloudeureka7002" />
+        <module name="microservicecloudeureka7003" />
+        <module name="microservicecloudhystrixdashboard" />
+        <module name="microservicecloudservice8001" />
+        <module name="microservicecloudservice8002" />
+        <module name="microservicecloudservice8003" />
+        <module name="microservicecloudservicehystrix8001" />
+        <module name="microservicezuulgatway9527" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="microservicecloud-config-client-3346" target="1.8" />
+      <module name="microservicecloudconfig3345" target="1.8" />
+      <module name="microservicecloudconfigclient3346" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
